@@ -1,0 +1,8 @@
+
+.container-fluid, .title {
+  z-index: -1;
+}
+
+.header-title{
+  width: 100%;
+}
