@@ -1,0 +1,18 @@
+.pro-title{
+  display: inline-block;
+  margin-bottom: 0rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: .8;
+  color: inherit;
+}
+
+/* #pro-title-box{
+  background-color: brown;
+} */
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    margin-left: 60%;
+  }
+}
