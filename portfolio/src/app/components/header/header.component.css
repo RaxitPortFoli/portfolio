@@ -11,8 +11,13 @@
   background-color: brown;
 } */
 
-@media (min-width: 992px) {
+@media (min-width: 1215px) {
   .navbar-expand-lg .navbar-collapse {
     margin-left: 60%;
+    text-align: right;
   }
+}
+
+#navbarNav {
+  text-align: center;
 }

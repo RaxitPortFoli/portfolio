@@ -1,8 +1,6 @@
-body {
-  background: #D0D8DB;
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
+
+
+
 
 textarea {
   resize: none;
@@ -19,35 +17,35 @@ transform: translate(-50%, -50%);
 white-space: nowrap;
 }
 
-@charset "UTF-8";
+/* @charset "UTF-8";
 
 .svg-inline--fa {
 vertical-align: -0.200em;
-}
+} */
 
 .rounded-social-buttons {
 text-align: center;
 }
 
 .rounded-social-buttons .social-button {
-display: inline-block;
-position: relative;
-cursor: pointer;
-width: 3.125rem;
-height: 3.125rem;
-border: 0.125rem solid transparent;
-padding: 0px;
-text-decoration: none;
-text-align: center;
-color: #fefefe;
-font-size: 1.5625rem;
-font-weight: normal;
-line-height: 2em;
-border-radius: 1.6875rem;
-transition: all 0.5s ease;
-margin-right: 1.25rem;
-margin-top: 10px;
-margin-bottom: 0.25rem;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.125rem;
+  height: 2.125rem;
+  border: 0.125rem solid transparent;
+  padding: 2px;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 0.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 0.25rem;
 }
 
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
@@ -544,4 +542,3 @@ border-color: #FF6B6B;
 .marker-outline .timeline-item:hover .timeline-marker:before {
 background: #FF6B6B;
 }
-
