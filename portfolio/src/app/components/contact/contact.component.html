@@ -1,3 +1,38 @@
-<p>
-  contact works!
-</p>
+<h3 id="contact">Get in touch</h3>
+		<form class="box white-box contact" novalidate>
+			<div class="field">
+				<input type="text" id="fname" name="first_name" required />
+				<label for="fname">First Name</label>
+			</div>
+
+			<div class="field">
+				<input type="text" id="lname" name="last_name" required />
+				<label for="lname">Last Name</label>
+			</div>
+
+			<div class="field">
+				<input type="email" id="email" name="email" required />
+				<label for="email">Email Address</label>
+			</div>
+
+			<div class="field field_optional">
+				<input type="url" id="company" name="company_name" />
+				<label for="company">Company Website</label>
+			</div>
+
+			<div class="field field-textarea">
+				<textarea id="message" name="message" required></textarea>
+				<label for="message">Message</label>
+			</div>
+
+			<div class="message message_success">Thank you for contacting me, I will try to respond ASAP.</div>
+			<div class="message message_error">
+				Ooops! Looks like an error occured. So embarassing!<br/>
+				You should either try again, or send a direct email to hello@zerospree.com<br/>
+				Thank you!
+			</div>
+
+			<div class="center">
+				<input type="submit" class="btn green" value="Send Email" id="submitform">
+			</div>
+		</form>

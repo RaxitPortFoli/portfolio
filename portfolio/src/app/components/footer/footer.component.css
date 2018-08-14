@@ -54,7 +54,7 @@ text-align: center;
         transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-github, .fa-instagram {
 font-size: 25px;
 }
 
@@ -88,11 +88,11 @@ background: #fefefe;
 border-color: #007bb5;
 }
 
-.rounded-social-buttons .social-button.youtube {
+.rounded-social-buttons .social-button.github {
 background: #bb0000;
 }
 
-.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
 color: #bb0000;
 background: #fefefe;
 border-color: #bb0000;
